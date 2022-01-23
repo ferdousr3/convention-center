@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif
+}
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif; */
+/* ---------------------- 
+  variable start
+ ------------------------- */
+:root{
+  --main-color:'#1f2471',
+}
+
+
+/* ---------------------- 
+  Utility classes start
+ ------------------------- */
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  color: var(--main-color);
+}
+
+ /* --------------------- 
+  Utility classes end 
+ --------------------- */
+
+ /* ----------------------- 
+  all section css Start
+ ------------------------ */
+
+
+ /* ----------------------- 
+  all section css End
+ ------------------------ */
