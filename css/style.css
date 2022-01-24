@@ -192,6 +192,15 @@ a {
   border: 0;
   
 }
+.toast{
+  max-width: 280px !important;
+  background-color: #fff;
+  max-height: 60px !important;
+  border-left: 6px solid var(--bg-color);
+}
+.toast-body{
+  margin-top: -30px !important;
+}
 /* footer section */
 .footer {
   background-color: var(--bg-color);
