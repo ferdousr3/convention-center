@@ -25,13 +25,16 @@ font-family: 'Poppins', sans-serif; */
   Utility classes start
  ------------------------- */
 .mt-20 {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 .mt-50 {
-  margin-top: 60px;
+  margin-top: 60px !important;
 }
 .mb-30 {
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
+}
+.section__padding{
+  margin: 40px 0px 40px 0px;
 }
 a {
   text-decoration: none;
@@ -137,6 +140,18 @@ a {
 .bg__hot__package li {
   background: var(--bg-color) !important;
   color: var(--bg-color2);
+}
+.hot__icon{
+  top: -10px;
+  right: 40px;
+  background: #EF234E;
+  padding: 3px 3px;
+  border-radius: 20px !important;
+}
+.hot__icon span{
+  font-size: 8px;
+  padding: 3px 10px;
+  color: #fff;
 }
 .list__details {
   margin-top: -4px;
