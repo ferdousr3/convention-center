@@ -1,10 +1,10 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Poppins', sans-serif
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 /* font-family: 'Pacifico', cursive;
@@ -12,28 +12,165 @@ font-family: 'Poppins', sans-serif; */
 /* ---------------------- 
   variable start
  ------------------------- */
-:root{
-  --main-color:'#1f2471',
+:root {
+  --main-color: #1f2471;
+  --main-color1: #696687;
+  --main-color2: #9fa5b7;
+  --btn-color: #5f3bff;
+  --bg-color: #030d28;
+  --bg-color2: #f0f0f0;
 }
-
 
 /* ---------------------- 
   Utility classes start
  ------------------------- */
-.navbar-brand {
-  font-family: 'Pacifico', cursive;
-  color: var(--main-color);
+.mt-20 {
+  margin-top: 20px;
 }
-
- /* --------------------- 
+.mt-50 {
+  margin-top: 60px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+a {
+  text-decoration: none;
+}
+.sub-title-color {
+  color: var(--bg-color);
+}
+.sub-title-color2 {
+  color: var(--bg-color2);
+}
+.discription-color {
+  color: var(--main-color1);
+}
+.discription-color2 {
+  color: var(--main-color2);
+}
+.p-font-size {
+  font-size: 0.975rem;
+}
+.navbar {
+  background-color: #fff;
+}
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  color: var(--bg-color);
+}
+.main__part {
+  /* height: 60vh; */
+  margin-top: 85px;
+}
+/* --------------------- 
   Utility classes end 
  --------------------- */
 
- /* ----------------------- 
+/* ----------------------- 
   all section css Start
  ------------------------ */
 
-
- /* ----------------------- 
+/* carousel section */
+.carousel__btn {
+  width: 168px;
+  height: 44px;
+  background-color: #ffffff;
+  color: var(--bg-color);
+  font-weight: 500;
+}
+.carousel__btn:hover {
+  color: var(--bg-color);
+}
+/* about section */
+.about__lef img {
+  width: 100%;
+  height: 400px;
+}
+.about__btn {
+  width: 160px;
+  height: 44px;
+  background-color: var(--bg-color);
+  font-weight: 500;
+}
+.about__btn__icon {
+  margin-left: 3px;
+}
+.about__btn:hover .about__btn__icon {
+  margin-left: 8px;
+  transition: 0.5s;
+}
+/* pacakges section */
+.my__card {
+  background-color: white;
+  box-shadow: 0px 0px 1px rgba(38, 78, 118, 0.35);
+  border-radius: 30px;
+}
+.my__card:hover {
+  box-shadow: 0px 6px 30px rgba(38, 78, 118, 0.1);
+  transition: 0.7s;
+}
+.my__card2 {
+  background-color: var(--bg-color);
+  box-shadow: 0px 0px 1px rgba(38, 78, 118, 0.35);
+  border-radius: 30px;
+}
+.packages__list {
+  margin-left: -15px;
+}
+.packages_item_icon {
+  margin-top: 5px;
+  margin-right: 8px;
+  margin-top: 0px;
+  margin-bottom: -10px;
+  padding: 8px;
+  width: 15px;
+  height: 15px;
+  background-color: #8582a2 !important;
+  color: #fff;
+}
+.list-group-item {
+  padding: 0.3rem 1rem !important;
+}
+.packages_item_icon_main {
+  font-size: 0.575em;
+}
+.bg__hot__package li {
+  background: var(--bg-color) !important;
+  color: var(--bg-color2);
+}
+.list__details {
+  margin-top: -4px;
+}
+.package__btn {
+  background-color: var(--bg-color);
+  font-size: 0.875rem;
+  border: 2px solid var(--bg-color);
+}
+.package__btn:hover {
+  border: 2px solid var(--bg-color);
+  background-color: transparent;
+  color: var(--bg-color) !important ;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.package__btn2 {
+  background-color: var(--bg-color2);
+  font-size: 0.875rem;
+   font-weight: 500;
+  border: 2px solid var(--bg-color2);
+  color: var(--bg-color) !important ;
+}
+.package__btn2:hover {
+  border: 2px solid var(--bg-color2);
+  background-color: transparent;
+  color: var(--bg-color2) !important ;
+  font-weight: 600;
+  transition: 0.5s;
+}
+/* footer section */
+.footer {
+  background-color: var(--bg-color);
+}
+/* ----------------------- 
   all section css End
  ------------------------ */

@@ -24,7 +24,9 @@
     <!-- header start here -->
     <header>
       <!-- navbar satrt -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light py-3">
+      <nav
+        class="navbar shadow-sm fixed-top navbar-expand-lg navbar-light py-3"
+      >
         <div class="container">
           <a class="navbar-brand fs-3" href="/"> Bridal Bliss </a>
           <button
@@ -104,14 +106,361 @@
     <!-- header end here-->
 
     <!-- main start here-->
-    <main></main>
+    <main class="main__part">
+      <!-- carousel section start  -->
+      <section>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/carousel/1.jpg"
+                class="d-block"
+                width="100%"
+                height="500"
+                alt="..."
+              />
+              <div class="carousel-caption mb-4">
+                <h4>Special Moment</h4>
+                <p>We Capture Your Special Moment and provide Ring</p>
+                <a
+                  href="https://www.google.com/"
+                  target="_blank"
+                  class="carousel__btn py-2 px-4 rounded"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/carousel/2.jpg"
+                class="d-block"
+                width="100%"
+                height="500"
+                alt="..."
+              />
+              <div class="carousel-caption mb-4">
+                <h4>Large Outdoor</h4>
+                <p>We have a Large Outdoor , you Feel a Naturel Environment</p>
+                <a
+                  href="https://www.twitter.com/"
+                  target="_blank"
+                  class="carousel__btn py-2 px-4 rounded"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/carousel/3.jpg"
+                class="d-block"
+                width="100%"
+                height="500"
+                alt="..."
+              />
+              <div class="carousel-caption mb-4">
+                <h4>Makeup Team</h4>
+                <p>
+                  The Makeup Team provides luxury on-site hair and makeup ....
+                </p>
+                <a
+                  href="https://themakeupteam.us/"
+                  target="_blank"
+                  class="carousel__btn py-2 px-4 rounded"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/carousel/5.jpg"
+                class="d-block"
+                width="100%"
+                height="500"
+                alt="..."
+              />
+              <div class="carousel-caption mb-4">
+                <h4>Large Indoor</h4>
+                <p>We have a Large Indoor , You Fell a Beautiful Environment</p>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="carousel__btn py-2 px-4 rounded"
+                >
+                  Book Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- carousel section end  -->
+      <!-- about section start -->
+      <section class="mt-50 mb-30">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center"
+            >
+              <div class="p-2 about__lef">
+                <img src="./images/about/about2.svg" alt="about bridal bliss" />
+              </div>
+            </div>
+            <div
+              class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center"
+            >
+              <div class="sm-mt-1">
+                <h3 class="fw-bolder fs-3 sub-title-color pb-2">
+                  Bridal Bliss
+                </h3>
+                <p class="discription-color fs-6">
+                  Bridal Bliss is a full service planning company, executing
+                  innovative events since 2002. Our passion for weddings,
+                  creative spirit, undivided attention and affirming attitude
+                  sets us apart. We bring a fresh perspective to event design,
+                  and collaborate with you to create an extraordinarily stylish
+                  and authentic event.
+                </p>
+                <button
+                  class="about__btn py-2 px-3 rounded border-0 text-white fw-normal"
+                >
+                  Learn more
+                  <span
+                    ><i
+                      class="about__btn__icon fas fa-long-arrow-alt-right"
+                    ></i>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about section end  -->
+      <!-- packages section start -->
+      <section class="mt-20 mb-30">
+        <div class="container">
+          <h3 class="text-center fw-bolder fs-3 sub-title-color mb-5">
+            Our Packages
+          </h3>
+          <div class="row g-3">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <!-- first card  start-->
+              <div class="card py-2 ps-2 my__card ">
+                <div class="card-body">
+                  <h5 class="card-title sub-title-color fw-bolder fs-4">$ 400</h5>
+                  <h6 class="card-title sub-title-color fw-bolder fs-4">Wedding Silver</h6>
+                  <p class="card-text discription-color fw-normal p-font-size">
+                   For most populer event like book fair. Craft fair
+                  </p>
+                  <ul class="list-group list-group-flush packages__list pb-3">
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Limited space access</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Secuirty facility</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Event support</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Decoration design</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Per day bill</span>
+                    </li>
+                  </ul>
+                  <button href="#" class="btn package__btn text-center mx-auto d-block text-white px-4 rounded-pill ">Choose plan</button>
+                </div>
+              </div>
+              <!-- first card end -->
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <!-- second card  start-->
+              <div class="card py-2 ps-2 my__card ">
+                <div class="card-body">
+                  <h5 class="card-title sub-title-color fw-bolder fs-4">$ 400</h5>
+                  <h6 class="card-title sub-title-color fw-bolder fs-4">Wedding Silver</h6>
+                  <p class="card-text discription-color fw-normal p-font-size">
+                   For most populer event like book fair. Craft fair
+                  </p>
+                  <ul class="list-group list-group-flush packages__list pb-3">
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Limited space access</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Secuirty facility</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Event support</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Decoration design</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Per day bill</span>
+                    </li>
+                  </ul>
+                  <button href="#" class="btn package__btn text-center mx-auto d-block text-white px-4 rounded-pill ">Choose plan</button>
+                </div>
+              </div>
+              <!-- second card end -->
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <!-- third card  start-->
+              <div class="card py-2 ps-2 my__card2 mb-4 ">
+                <div class="card-body">
+                  <h5 class="card-title text-white fw-bolder fs-4">$ 400</h5>
+                  <h6 class="card-title sub-title-color2 fw-bolder fs-4">Wedding Silver</h6>
+                  <p class="card-text discription-color2 fw-normal p-font-size">
+                   For most populer event like book fair. Craft fair
+                  </p>
+                  <ul class="list-group list-group-flush packages__list bg__hot__package pb-3">
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color2 fw-light p-font-size" >Limited space access</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color2 fw-light p-font-size" >Secuirty facility</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color2 fw-light p-font-size" >Event support</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color2 fw-light p-font-size" >Decoration design</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color2 fw-light p-font-size" >Per day bill</span>
+                    </li>
+                  </ul>
+                  <button href="#" class="btn package__btn2 text-center mx-auto d-block text-white px-4 rounded-pill ">Choose plan</button>
+                </div>
+              </div>
+              <!-- third card end -->
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+              <!-- fourth card  start-->
+              <div class="card py-2 ps-2 my__card ">
+                <div class="card-body">
+                  <h5 class="card-title sub-title-color fw-bolder fs-4">$ 1500</h5>
+                  <h6 class="card-title sub-title-color fw-bolder fs-4">Corporat Event</h6>
+                  <p class="card-text discription-color fw-normal p-font-size">
+                   For Corporat Cevent plan are included
+                  </p>
+                  <ul class="list-group list-group-flush packages__list pb-3">
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Limited space access</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Secuirty facility</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Event support</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Decoration design</span>
+                    </li>
+                    <li class="list-group-item d-flex border-0">
+                      <span class="bg-info packages_item_icon_main rounded-circle d-flex justify-content-center align-items-center packages_item_icon" > &#10004;</span> <span class=" list__details  discription-color fw-light p-font-size" >Per day bill</span>
+                    </li>
+                  </ul>
+                  <button href="#" class="btn package__btn text-center mx-auto d-block text-white px-4 rounded-pill ">Choose plan</button>
+                </div>
+              </div>
+              <!-- fourth card end -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- packages section end -->
+      <!-- packages section start -->
+      <!-- packages section end -->
+      <!-- packages section start -->
+      <!-- packages section end -->
+    </main>
     <!-- main end here-->
 
     <!-- footer start here-->
-    <footer></footer>
+    <footer class="mt-5">
+      <div class="footer pt-5 pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="d-flex align-items-center col-12 col-sm-12 col-md-6">
+              <p class="text-white fs-6 fw-light d-flex align-items-center">
+                © 2022 Bridal Bliss.All rights reserved
+              </p>
+            </div>
+            <div
+              class="col-12 col-sm-12 col-md-6 d-flex align-items-center justify-content-center"
+            >
+              <p class="text-white fw-light">Get the App</p>
+              <a href="">
+                <img src="" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- footer end here-->
 
     <!-- javaScript cdn Links -->
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/3083aa8516.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap 5.0.2 Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
