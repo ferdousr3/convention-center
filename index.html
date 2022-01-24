@@ -56,7 +56,7 @@
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -223,7 +223,7 @@
               class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center"
             >
               <div class="sm-mt-1">
-                <h3 class="fw-bolder fs-3 sub-title-color pb-2">
+                <h3 class="fw-bolder about__title fs-3 sub-title-color pb-2">
                   Bridal Bliss
                 </h3>
                 <p class="discription-color fs-6">
@@ -681,6 +681,24 @@
         </div>
       </section>
       <!--  happy client section end -->
+      <!-- subscribe section start -->
+      <section id="subscribe" class="section__padding">
+        <div class="container subscribe rounded-3">
+          <div class="row   ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8  align-items-center ">
+              <h2 class="text-white fw-bolder  " >
+                Are you looking for top wedding planer and experts?
+              </h2>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center">
+              <button class="py-3 subscribe__btn  px-5 border-2 border-white bg-transparent text-uppercase text-white">
+                Joun us
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- subscribe section end -->
       <!-- FAQ section start -->
       <section class="section__padding">
         <div class="container">
@@ -942,31 +960,34 @@
         </div>
       </section>
       <!-- contact section end -->
-      <!-- packages section start -->
-      <!-- packages section end -->
-      <!-- toast -->
+
+      <!------------------------
+      toast not a section its float
+    ---------------------------->
+      <!-- toast start  -->
       <div
-        class="toast position-fixed show top-50 end-0 translate-middle-y  "
+        class="toast position-fixed show top-50 end-0 translate-middle-y"
         style="z-index: 11"
         role="alert"
         aria-live="assertive"
         aria-atomic="true"
       >
-      <div class="d-flex justify-content-end align-items-center">
-        <div class="toast-header">
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="toast"
-            aria-label="Close"
-          ></button>
+        <div class="d-flex justify-content-end align-items-center">
+          <div class="toast-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
         </div>
-      </div>
         <div class="toast-body d-flex">
           <span><i class="fas fs-4 sub-title-color fa-gift"></i></span>
-          <span class="fs-6 ms-2 mt-1 discription-color ">20% off on next booking </span>
+          <span class="fs-6 ms-2 mt-1 discription-color"
+            >20% off on next booking
+          </span>
         </div>
-        
       </div>
       <!-- toast -->
     </main>
@@ -985,12 +1006,10 @@
               </p>
             </div>
             <div
-              class="col-12 col-sm-12 col-md-6 d-flex align-items-center justify-content-center"
+              class="col-12 col-sm-12 col-md-6 d-flex align-items-center justify-content-end"
             >
-              <div class="d-block sm-d-flex md-d-flex lg-d-flex">
-                <p class="text-white fw-light fs-6 foote__right text-center">
-                  Get the App
-                </p>
+              <div class="">
+                <p class="text-white fw-light fs-6 foote__right">Get the App</p>
 
                 <a
                   href="https://play.google.com/store/apps/details?id=learn.programming.courses&hl=en&gl=US"
@@ -1005,7 +1024,6 @@
                     alt="download google"
                   />
                 </a>
-                <br />
                 <a
                   href="https://apps.apple.com/us/app/code-app/id1512938504"
                   target="_blank"

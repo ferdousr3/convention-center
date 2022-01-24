@@ -33,7 +33,7 @@ font-family: 'Poppins', sans-serif; */
 .mb-30 {
   margin-bottom: 30px !important;
 }
-.section__padding{
+.section__padding {
   margin-top: 5em !important;
   margin-bottom: 6rem !important;
 }
@@ -90,6 +90,9 @@ a {
   width: 100%;
   height: 400px;
 }
+.about__title {
+  font-family: "Pacifico", sans-serif;
+}
 .about__btn {
   width: 160px;
   height: 44px;
@@ -142,14 +145,14 @@ a {
   background: var(--bg-color) !important;
   color: var(--bg-color2);
 }
-.hot__icon{
+.hot__icon {
   top: -10px;
   right: 40px;
-  background: #EF234E;
+  background: #ef234e;
   padding: 3px 3px;
   border-radius: 20px !important;
 }
-.hot__icon span{
+.hot__icon span {
   font-size: 8px;
   padding: 3px 10px;
   color: #fff;
@@ -172,7 +175,7 @@ a {
 .package__btn2 {
   background-color: var(--bg-color2);
   font-size: 0.875rem;
-   font-weight: 500;
+  font-weight: 500;
   border: 2px solid var(--bg-color2);
   color: var(--bg-color) !important ;
 }
@@ -183,34 +186,44 @@ a {
   font-weight: 600;
   transition: 0.5s;
 }
+/* subscribe */
+.subscribe {
+  background-color: var(--bg-color);
+  min-height: 250px;
+  padding: 5rem 3rem;
+}
+.subscribe__btn:hover {
+  border: 2px solid var(--bg-color2);
+  background-color: var(--bg-color2) !important;
+  color: var(--bg-color) !important;
+  transition: 0.5s;
+  font-weight: 500;
+}
 /* faq section */
-.accordion-item{
-  margin-bottom: .5rem !important;
-  
+.accordion-item {
+  margin-bottom: 0.5rem !important;
 }
-.accordion-item:focus{
+.accordion-item:focus {
   border: 0;
-  
 }
-.toast{
+.toast {
   max-width: 280px !important;
   background-color: #fff;
   max-height: 60px !important;
   border-left: 6px solid var(--bg-color);
 }
-.toast-body{
+.toast-body {
   margin-top: -30px !important;
 }
 /* footer section */
 .footer {
   background-color: var(--bg-color);
-
 }
 .footer p {
   font-size: 14px !important;
   letter-spacing: 1px;
 }
-.foote__right{
+.foote__right {
   line-height: 20px;
   margin-bottom: 4px;
 }
