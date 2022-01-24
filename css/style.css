@@ -34,7 +34,8 @@ font-family: 'Poppins', sans-serif; */
   margin-bottom: 30px !important;
 }
 .section__padding{
-  margin: 40px 0px 40px 0px;
+  margin-top: 5em !important;
+  margin-bottom: 6rem !important;
 }
 a {
   text-decoration: none;
@@ -182,9 +183,27 @@ a {
   font-weight: 600;
   transition: 0.5s;
 }
+/* faq section */
+.accordion-item{
+  margin-bottom: .5rem !important;
+  
+}
+.accordion-item:focus{
+  border: 0;
+  
+}
 /* footer section */
 .footer {
   background-color: var(--bg-color);
+
+}
+.footer p {
+  font-size: 14px !important;
+  letter-spacing: 1px;
+}
+.foote__right{
+  line-height: 20px;
+  margin-bottom: 4px;
 }
 /* ----------------------- 
   all section css End
