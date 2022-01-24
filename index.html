@@ -24,17 +24,18 @@
     <!-- header start here -->
     <header>
       <!-- navbar satrt -->
+
       <nav
         class="navbar shadow-sm fixed-top navbar-expand-lg navbar-light py-3"
       >
         <div class="container">
           <a class="navbar-brand fs-3" href="/"> Bridal Bliss </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler me-2"
             type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -43,55 +44,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav sm text-center ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Packages</a>
+                <a class="nav-link" href="#packages">Packages</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- mobile navbar start -->
-        <div
-          class="offcanvas offcanvas-start w-75 pt-2"
-          tabindex="-1"
-          id="offcanvasRight"
-          aria-labelledby="offcanvasRightLabel"
-        >
-          <div class="offcanvas-header">
-            <a id="offcanvasRightLabel" class="navbar-brand fs-3" href="/">
-              Bridal Bliss
-            </a>
-            <button
-              type="button"
-              class="btn-close text-reset"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav sm text-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Packages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Subscribe</a>
@@ -99,7 +61,6 @@
             </ul>
           </div>
         </div>
-        <!-- mobile navbar start -->
       </nav>
       <!-- navbar end -->
     </header>
@@ -248,7 +209,7 @@
       </section>
       <!-- carousel section end  -->
       <!-- about section start -->
-      <section class="mt-50 mb-30">
+      <section id="about" class="mt-50 mb-30">
         <div class="container">
           <div class="row">
             <div
@@ -290,7 +251,7 @@
       </section>
       <!-- about section end  -->
       <!-- packages section start -->
-      <section class="section__padding">
+      <section id="packages" class="section__padding">
         <div class="container">
           <h3 class="text-center fw-bolder fs-3 sub-title-color mb-5">
             Our Packages
@@ -875,6 +836,87 @@
         </div>
       </section>
       <!-- FAQ section end -->
+      <!-- contact section start -->
+      <section id="contact" class="section__padding">
+        <div class="container">
+          <h3 class="text-center fw-bolder fs-3 sub-title-color mb-5">
+            Contact Us
+          </h3>
+          <div class="row g-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-5 d-flex align-items-center">
+              <div class="contact-left">
+                <h4 class="sub-title-color fw-normal">
+                  Do you have Any question?
+                </h4>
+                <p class="discription-color pe-3">
+                  let we know how we can help. you may Fill out the form and
+                  we'll be in touch as soon as possible.
+                </p>
+                <ul class="list-group">
+                  <li class="list-group-item border-0 d-flex">
+                    <span><i class="fas sub-title-color fa-home"></i></span>
+                    <span class="ms-2 discription-color"
+                      >98/2, Vista Garden, Shenpara london, <br />
+                      london-10, london-1216</span
+                    >
+                  </li>
+                  <li class="list-group-item border-0 d-flex">
+                    <span
+                      ><i class="fas sub-title-color fa-phone-alt"></i
+                    ></span>
+                    <span class="ms-2 discription-color">+0102794846</span>
+                  </li>
+                  <li class="list-group-item border-0 d-flex">
+                    <span><i class="fas sub-title-color fa-envelope"></i></span>
+                    <span class="ms-2 discription-color"
+                      >example@email.com</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+              <div class="shadow py-3 px-4">
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inputName3" class="form-label sub-title-color ">Name</label>
+                    <input type="text" class="form-control" placeholder="your full Name" id="inputName3" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label sub-title-color ">Email</label>
+                    <input type="email" class="form-control" placeholder="your Vaild Email" id="inputEmail4" />
+                  </div>
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label sub-title-color ">Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputAddress"
+                      placeholder="1234 Main St"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label for="inputEmail4" class="form-label sub-title-color ">Messages</label>
+                    <textarea
+                      class="form-control"
+                      placeholder="Leave a Messages here"
+                      id="floatingTextarea2"
+                      style="height: 100px"
+                    ></textarea>
+                  </div>
+
+                  <div class="col-12">
+                    <button type="submit" class="btn package__btn text-white px-4">
+                     submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section end -->
       <!-- packages section start -->
       <!-- packages section end -->
     </main>
@@ -885,11 +927,9 @@
       <div class="footer pt-5 pb-4">
         <div class="container">
           <div class="row">
-            <div
-              class="d-flex align-items-center col-12 col-sm-12 col-md-6 "
-            >
+            <div class="d-flex align-items-center col-12 col-sm-12 col-md-6">
               <p
-                class="text-white fs-6 fw-light d-flex align-items-center pt-3 "
+                class="text-white fs-6 fw-light d-flex align-items-center pt-3"
               >
                 © 2022 Bridal Bliss.All rights reserved
               </p>
@@ -897,8 +937,10 @@
             <div
               class="col-12 col-sm-12 col-md-6 d-flex align-items-center justify-content-center"
             >
-              <div class="div">
-                <p class="text-white fw-light fs-6 foote__right text-center">Get the App</p>
+              <div class="d-block sm-d-flex md-d-flex lg-d-flex">
+                <p class="text-white fw-light fs-6 foote__right text-center">
+                  Get the App
+                </p>
 
                 <a
                   href="https://play.google.com/store/apps/details?id=learn.programming.courses&hl=en&gl=US"
@@ -913,7 +955,7 @@
                     alt="download google"
                   />
                 </a>
-<br>
+                <br />
                 <a
                   href="https://apps.apple.com/us/app/code-app/id1512938504"
                   target="_blank"
